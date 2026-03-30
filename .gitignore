@@ -1,0 +1,43 @@
+# 依赖
+node_modules/
+vendor/
+
+# 编译产物
+artifacts/
+cache/
+build/
+*.abi
+*.bin
+
+# 区块链数据
+chaindata/
+*.db
+
+# 环境变量
+.env
+.env.local
+
+# 日志
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Go 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+sourseSharing
+main
+
+# 临时文件
+*.tmp
+*.temp
